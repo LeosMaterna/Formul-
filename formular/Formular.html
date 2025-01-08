@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulář</title>
+  <link rel="stylesheet" href="Formular.css">
+</head>
+<body>
+  <h1 class="big-title">Formulář</h1>
+</body>
+<body>
+  <div class="form-container">
+        <form action="#" method="post">
+      <div class="form-group">
+        <label for="jmeno">Jméno</label>
+        <input type="text" id="jmeno" name="jmeno" required>
+      </div>
+
+      <div class="form-group">
+        <label for="prijmeni">Příjmení</label>
+        <input type="text" id="prijmeni" name="prijmeni" required>
+      </div>
+
+      <div class="form-group">
+        <label for="datum_narozeni">Datum narození</label>
+        <input type="date" id="datum_narozeni" name="datum_narozeni" required>
+      </div>
+
+      <div class="form-group">
+        <label for="rodne_cislo">Rodné číslo</label>
+        <input type="number" id="rodne_cislo" name="rodne_cislo" required>
+      </div>
+
+      <div class="form-group">
+        <label for="ulice">Ulice</label>
+        <input type="text" id="ulice" name="ulice" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cp">Číslo popisné</label>
+        <input type="text" id="cp" name="cp" required>
+      </div>
+
+      <div class="form-group">
+        <label for="psc">Poštovní směrovací číslo</label>
+        <input type="text" id="psc" name="psc" required>
+      </div>
+
+      <div class="form-group">
+        <label for="souhlas">
+          <input type="checkbox" id="souhlas" name="souhlas" required> Souhlasím s odpověďmi
+        </label>
+      </div>
+
+      <button type="submit" class="submit-btn">Odeslat</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+button{
+    
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #7c26dd;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    color: rgb(48, 45, 83);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+    letter-spacing: 3px;
+}
+ 
+.button1:hover{
+    scale: 0.9;
+}
+ 
+.button2:hover{
+    scale: 1.1;
+}
+.button2 {
+    background-color: #45a049;
+}
+ 
+.button3:hover{
+    background-color: rgb(151, 10, 10);
+}
+.button3 {
+    background-color: #4e45a0;
+}
+
+.button4:hover{
+    background-color: transparent;
+    border: 5px solid #0bc5e6;
+    color: black;
+}
+.button4 {
+    background-color: #ad006b;
+}
+
+.button5:hover{
+    transform: rotate(180deg);        
+}
+.button5 {
+    background-color: #4b2955;
+} 
+
+.button6:hover{
+    transform: rotate(180deg) scale(1.2);
+}
+.button6 {
+    background-color: #c5d116;
+}
+
+.button7:hover{
+    filter: blur(2px);  
+}
+
+.button8:hover {
+    color: #45a049; 
+    border-color: #45a049;  
+}
+.button8 {
+    background-color: #758376;
+}
+
+.button8:hover::after {
+    transform: scaleX(1);  
+    transform-origin: bottom left;
+}
+
+.button9:hover span {
+    padding-right: 25px;
+  }
+  
+  .button9:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button9:hover {
+    opacity: 0;
+  }
+
+  .button9 {
+    background-color: #9b4f11;
+}
